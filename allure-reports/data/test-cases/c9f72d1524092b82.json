@@ -1,0 +1,240 @@
+{
+  "uid" : "c9f72d1524092b82",
+  "name" : "When I type \"allure report\" in the search input",
+  "fullName" : "In order to test the Project List of PM Platform: I want to browse google website.When I type \"allure report\" in the search input",
+  "historyId" : "53f77b8f12396659af31398bdf0b2650",
+  "time" : {
+    "start" : 1662561745764,
+    "stop" : 1662561746093,
+    "duration" : 329
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1662561745766,
+        "stop" : 1662561745922,
+        "duration" : 156
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6718628072c1fa99",
+        "name" : "Request",
+        "source" : "6718628072c1fa99.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "ebf28f9470ca2bab",
+        "name" : "Screenshot",
+        "source" : "ebf28f9470ca2bab.png",
+        "type" : "image/png",
+        "size" : 46177
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/20f61fe6-62b6-4e4f-bf03-54c31637c18b/clear",
+      "time" : {
+        "start" : 1662561745930,
+        "stop" : 1662561745961,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/20f61fe6-62b6-4e4f-bf03-54c31637c18b/value",
+      "time" : {
+        "start" : 1662561745968,
+        "stop" : 1662561746030,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c29d97fae17a27a4",
+        "name" : "Request",
+        "source" : "c29d97fae17a27a4.json",
+        "type" : "application/json",
+        "size" : 29
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1662561746031,
+        "stop" : 1662561746084,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/element/20f61fe6-62b6-4e4f-bf03-54c31637c18b/property/value",
+        "time" : {
+          "start" : 1662561746034,
+          "stop" : 1662561746047,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "e25e165cc0d91dbb",
+          "name" : "Response",
+          "source" : "e25e165cc0d91dbb.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "POST /session/:sessionId/actions",
+        "time" : {
+          "start" : 1662561746051,
+          "stop" : 1662561746060,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "ac825c414e89d3a2",
+          "name" : "Request",
+          "source" : "ac825c414e89d3a2.json",
+          "type" : "application/json",
+          "size" : 5617
+        }, {
+          "uid" : "ec4f31348ba51019",
+          "name" : "Response",
+          "source" : "ec4f31348ba51019.json",
+          "type" : "application/json",
+          "size" : 15
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2
+      } ],
+      "attachments" : [ {
+        "uid" : "3d217f4444c08487",
+        "name" : "Request",
+        "source" : "3d217f4444c08487.json",
+        "type" : "application/json",
+        "size" : 104
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 4
+    }, {
+      "name" : "DELETE /session/:sessionId/actions",
+      "time" : {
+        "start" : 1662561746085,
+        "stop" : 1662561746090,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1662561746091,
+        "stop" : 0,
+        "duration" : -1662561746091
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "d8ceacdd08f7205",
+      "name" : "Response",
+      "source" : "d8ceacdd08f7205.json",
+      "type" : "application/json",
+      "size" : 83
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 8
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "In order to test the Project List of PM Platform: I want to browse google website"
+  }, {
+    "name" : "testClass",
+    "value" : "In order to test the Project List of PM Platform: I want to browse google website"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I type \"allure report\" in the search input"
+  }, {
+    "name" : "package",
+    "value" : "In order to test the Project List of PM Platform: I want to browse google website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-105.0.5195.102"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c9f72d1524092b82.json",
+  "parameterValues" : [ "chrome-105.0.5195.102" ]
+}
